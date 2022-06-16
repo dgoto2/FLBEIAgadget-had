@@ -2,7 +2,7 @@
 A Management Strategy Evaluation (MSE) framework using FLBEIA and Gadget
 
 ## Description
-FLBEIA-Gadget is a Management Strategy Evaluation (MSE) framework using a customized version of FLBEIA (Bio-Economic Impact Assessment of Management strategies; https://github.com/REDUS-IMR/FLBEIA) with an R package of customized Gadget (Globally applicable Area Disaggregated General Ecosystem Toolbox, https://github.com/Hafro/gadget2), GadgetR (https://github.com/REDUS-IMR/gadget), as an operating model (OM). This framework is designed to run single and multispecies MSEs with one or more fleets and one or more areas on quarterly and yearly time steps.
+FLBEIA-Gadget is a Management Strategy Evaluation (MSE) framework using a customized version of FLBEIA (Bio-Economic Impact Assessment of Management strategies; https://github.com/REDUS-IMR/FLBEIA) with an R package of customized Gadget (Globally applicable Area Disaggregated General Ecosystem Toolbox, https://github.com/Hafro/gadget2), GadgetR (https://github.com/REDUS-IMR/gadget), as operating model (OM). This framework is designed to run single and multispecies MSEs with one or more fleets and one or more areas on quarterly and yearly time steps. This framework has been tested for a single-species OM only, however. 
 
 ## Prerequisites
 Install the following packages:
@@ -17,4 +17,4 @@ Install the following packages:
 ```
 
 ## Acknowledgements
-This work has been conducted as part of Institute of Marine Research/Havforskningsinstituttet's (https://www.hi.no/en) REDUS (Reducing uncertainty in stock assessment) Project (http://redus.no/).
+This work has been conducted as part of the Institute of Marine Research/Havforskningsinstituttet's (https://www.hi.no/en) REDUS (Reducing uncertainty in stock assessment) Project (http://redus.no/).
