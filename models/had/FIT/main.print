@@ -1,0 +1,13 @@
+; main file for gadget - created in Rgadget
+; FIT/main.print - Thu Jun 16 20:49:31 2022
+timefile time
+areafile area
+printfiles FIT/printfile.fit
+[stock]
+stockfiles had
+[tagging]
+[otherfood]
+[fleet]
+fleetfiles fleet
+[likelihood]
+likelihoodfiles likelihood
