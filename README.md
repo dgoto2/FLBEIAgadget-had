@@ -15,6 +15,3 @@ Install the following packages:
   
   install.packages(c("dplyr", "copula", "triangle", "coda"))  
 ```
-
-## Acknowledgements
-This work has been conducted as part of the Institute of Marine Research/Havforskningsinstituttet's (https://www.hi.no/en) REDUS (Reducing uncertainty in stock assessment) Project (http://redus.no/).
