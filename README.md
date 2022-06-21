@@ -6,7 +6,7 @@ FLBEIA-Gadget is a Management Strategy Evaluation (MSE) framework using a custom
 
 ## Prerequisites
 Install the following packages:
-```
+```r
 # GadgetR
   devtools::install_github("REDUS-IMR/gadget", ref="gadgetr")
 
