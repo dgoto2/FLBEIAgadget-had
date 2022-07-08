@@ -99,12 +99,6 @@ firstYear <- first.yr
 projYear <- proj.yr
 finalYear <- last.yr
 
-## reset the directory
-dir <- getwd()
-
-## Load helper functions
-source(paste0(dir, "/gadget-fls.R"), local = T)
-
 ```
 
 
