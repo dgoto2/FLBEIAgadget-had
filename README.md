@@ -45,7 +45,7 @@ data_rec <- fit$stock.recruitment %>%
   filter(year < proj.yr) 
 
 ```
-And the following stock-specific parameters need to be specified based on the gadget modle input files (stock and fleet names must be the same as in the gadget files);
+And the following stock-specific parameters need to be specified based on the gadget model input files (stock and fleet names must be the same as in the gadget files);
 ```r
 ## Gadget parameters placeholders
 oneGDGT <- list()
