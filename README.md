@@ -17,8 +17,11 @@ Install the following packages:
   install.packages(c("FLFleet", "FLa4a", "FLash", "FLAssess", "ggplotFL", "FLSAM", "FLCore"), repos="http://flr-project.org/R")
   
   install.packages(c("dplyr", "copula", "triangle", "coda"))  
+  
 # FLBEIAgadget  
   devtools::install_github("REDUS-IMR/FLBEIA", ref="FLBEIAgadget")
+
+# gadget-fls.R contains a collection of helper functions for MSE simulations
 
 ```
 
