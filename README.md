@@ -13,16 +13,16 @@ Install the following packages:
 # Rgadget
   devtools::install_github("hafro/rgadget")
 
-# FLBEIAgadget  
-  devtools::install_github("REDUS-IMR/FLBEIA", ref="FLBEIAgadget")
-
 # FLR (Fisheries Library in R) packages
   install.packages(c("FLFleet", "FLa4a", "FLash", "FLAssess", "ggplotFL", "FLSAM", "FLCore"), repos="http://flr-project.org/R")
   
   install.packages(c("dplyr", "copula", "triangle", "coda"))  
+# FLBEIAgadget  
+  devtools::install_github("REDUS-IMR/FLBEIA", ref="FLBEIAgadget")
+
 ```
 
-#### OM conditioning (see flbeia_gadget_mse_age_4s_had.R above for an example script using the haddock model)
+#### OM conditioning (see the scripts (flbeia_gadget_mse_age_4s_had_XX.R with different assessment models) above for examples using the haddock model)
 To condition a gadget-based OM, the gadget.fit() function from Rgadget can be used to extract stock information (numbers and weight by age, etc.) as
 ```r
 paramsfile <- 'refinputfile' # Gadget model input file name
