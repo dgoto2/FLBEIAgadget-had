@@ -1,5 +1,5 @@
 ; main file for gadget - created in Rgadget
-; FIT/main.print - Thu Jun 16 20:49:31 2022
+; FIT/main.print - Mon Aug  1 13:25:53 2022
 timefile time
 areafile area
 printfiles FIT/printfile.fit

@@ -1,4 +1,4 @@
-; gadget printfile, created in 2022-06-16
+; gadget printfile, created in 2022-08-01
 [component]
 type	likelihoodsummaryprinter
 printfile	FIT/out.fit/likelihoodsummary

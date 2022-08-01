@@ -1,14 +1,14 @@
-# FLBEIA-Gadget MSE framework with the simple haddock Gadget example model (J. Begley)
+# FLBEIA-Gadget MSE framework with the simple haddock Gadget example model (J. Begley) as operating model and SAM as assessment model
 # updated 11-jun-2020
 
 ## conditioning the operating model
 
 ## install packages
-devtools::install_github("REDUS-IMR/FLBEIA", ref="FLBEIAgadget", force=T) # FLBEIA modified to work with a gadget model as the OM
-devtools::install_github("REDUS-IMR/gadget", ref="gadgetr") # linking with a gadget model
-devtools::install_github("hafro/rgadget")
+#devtools::install_github("REDUS-IMR/FLBEIA", ref="FLBEIAgadget") # FLBEIA modified to work with a gadget model as OM
+#devtools::install_github("REDUS-IMR/gadget", ref="gadgetr") # linking with a gadget model
+#devtools::install_github("hafro/rgadget")
 
-## load requied packages
+## load packages
 library(dplyr)
 library(FLCore) 
 library(FLAssess)
@@ -29,10 +29,7 @@ path_model <- paste0("models/had")
 setwd(list.dirs(path = path_model, recursive = T)[1])
 mypath <- getwd()
 
-## To estimate the model parameters the suggested procedure is to use the iterative reweighting approach
-## with is implemented in the gadget.iterative function (see ?gadget.iterative for further details).
-# gadget.iterative(main='main', params.file = 'refinputfile', wgts='WGTS')
-
+## To estimate the model parameters the suggested procedure is to use the iterative reweighting approach (gadget.iterative)
 ## If you ran the gadget.iterative you simply type:
 ## fit <- gadget.fit()
 ## but otherwise do:
@@ -44,11 +41,8 @@ setwd("../..")
 dir <- getwd()
 
 ## FLBEIA Conditioning
-## These objects contain biological historical and projection data, and also point the functions 
-## that are going to be used by the model. 
-
 ## biols: 
-## An FLBiols object that contains biological information of stk1 relative to 'real' biological population within the OM.
+## An FLBiols object that contains biological information of stk1 relative to 'real' biological population within OM.
 first.yr          <- 1978
 proj.yr           <- 2000
 last.yr           <- 2020
@@ -72,7 +66,7 @@ stk1.age.min    <- 1
 stk1.age.max    <- 10
 stk1.unit       <- 1         
 
-## main.ctrl: Controls the settings with the initial and final year of the proyected period.
+## main.ctrl: Controls the settings with the initial and final year of the projected period.
 main.ctrl           <- list()
 main.ctrl$sim.years <- c(initial = proj.yr, final = last.yr)
 
@@ -399,9 +393,10 @@ stks.data <- list(stk1 = ls(pattern = "^stk1"))
 advice   <- create.advice.data(yrs, ns, ni, stks.data, fleets)
 
 ## advice.ctrl: 
+# hypothetical HCR and reference points for this example
 HCR.models  <- c('IcesHCR') 
 blim <- mean(stk1_ssb.flq)*0.15 
-btrigger <- mean(stk1_ssb.flq)*0.20
+btrigger <- mean(stk1_ssb.flq)*0.4
 fmsy <- 0.10
 ref.pts.stk1      <- matrix(rep(c(blim, btrigger, fmsy), 3), 3, ni, dimnames = list(c('Blim', 'Btrigger','Fmsy'), 1:ni))
 advice.ctrl      <- create.advice.ctrl(stksnames = stks, 
@@ -415,26 +410,6 @@ advice.ctrl$stk1$AdvCatch <- rep(TRUE, length(first.yr:last.yr))   #TRUE advice 
 names(advice.ctrl$stk1$AdvCatch) <- as.character((first.yr:last.yr))
 
 ## assess.ctrl: 
-## Defines the name of the assessment model to be used for each stock.
-assess.models <- 'NoAssessment'
-assess.ctrl <- create.assess.ctrl(stksnames = stks, 
-                                  assess.models = assess.models)
-assess.ctrl[['stk1']]$work_w_Iter <- TRUE
-
-# ## XSA 
-# assess.ctrl.xsa <- assess.ctrl
-# assess.ctrl.xsa$stk1$assess.model <- 'FLXSA2flbeia'  # selected assessment model
-# assess.ctrl.xsa[["stk1"]]$control <- FLXSA.control() # default control values
-# assess.ctrl.xsa[["stk1"]]$work_w_Iter <- TRUE
-# assess.ctrl.xsa[["stk1"]]$harvest.units <- 'f'
-
-## 1) statistical catch-at-age model - a4a
-assess.ctrl.a4a <- assess.ctrl
-assess.ctrl.a4a$stk1$assess.model <- "sca2flbeia"
-assess.ctrl.a4a[["stk1"]]$harvest.units <- "f"
-assess.ctrl.a4a[["stk1"]]$control$test <- TRUE    # control values
-
-## 2) statistical catch-at-age model - SAM
 assess.ctrl.sam <- assess.ctrl
 assess.ctrl.sam[["stk1"]]$assess.model <- "sam2flbeia"
 assess.ctrl.sam$stk1$assess.model <- "sam2flbeia"
@@ -460,7 +435,7 @@ checkFLBEIAData( biols = biols,
 ## Save FLBEIA input objects
  save(biols, SRs, BDs, oneGDGT, had.params, fleets, covars, oneIndAge, advice, main.ctrl, biols.ctrl, fleets.ctrl, 
       covars.ctrl, advice.ctrl, obs.ctrl.age, assess.ctrl.sam, 
-      file="input_flbeia-gadget_age_4s_had.RData")
+      file="input_flbeia-gadget_age_4s_sam.RData")
 
  
 ## Run FLBEIA
@@ -478,9 +453,7 @@ s0 <- FLBEIA(biols = biols,
             fleets.ctrl = fleets.ctrl,
             covars.ctrl = covars.ctrl,
             obs.ctrl = obs.ctrl.age,
-            #assess.ctrl = assess.ctrl.xsa, # xsa
-            assess.ctrl = assess.ctrl.sam, # sam
-            #assess.ctrl = assess.ctrl.a4a, # a4a
+            assess.ctrl = assess.ctrl.sam,
             advice.ctrl = advice.ctrl)
 ## reset the directory
 setwd(dir)
