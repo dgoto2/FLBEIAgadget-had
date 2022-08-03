@@ -24,7 +24,8 @@ Install the following packages:
 
 ```
 
-#### OM conditioning (see the scripts (`flbeia_gadget_mse_age_4s_had_XX.R` with different assessment models) above for examples using the haddock model)
+#### OM conditioning 
+(See the scripts`flbeia_gadget_mse_age_4s_had_XX.R` with different assessment models above for examples using the haddock model)
 To condition a gadget-based OM, the gadget.fit() function from Rgadget can be used to extract stock information (numbers and weight by age, etc.) as
 ```r
 paramsfile <- 'refinputfile' # Gadget model input file name
