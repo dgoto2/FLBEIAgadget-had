@@ -21,11 +21,10 @@ Install the following packages:
 # FLBEIAgadget  
   devtools::install_github("REDUS-IMR/FLBEIA", ref="FLBEIAgadget")
 
-# gadget-fls.R contains a collection of helper functions for MSE simulations
 
 ```
 
-#### OM conditioning (see the scripts (flbeia_gadget_mse_age_4s_had_XX.R with different assessment models) above for examples using the haddock model)
+#### OM conditioning (see the scripts (`flbeia_gadget_mse_age_4s_had_XX.R` with different assessment models) above for examples using the haddock model)
 To condition a gadget-based OM, the gadget.fit() function from Rgadget can be used to extract stock information (numbers and weight by age, etc.) as
 ```r
 paramsfile <- 'refinputfile' # Gadget model input file name
@@ -48,7 +47,8 @@ data_rec <- fit$stock.recruitment %>%
   filter(year < proj.yr) 
 
 ```
-And the following stock-specific parameters need to be specified based on the gadget model input files (stock and fleet names must be the same as in the gadget files);
+And the following stock-specific parameters need to be specified based on the gadget model input files (stock and fleet names must be the same as in the gadget files) and the script, `gadget-fls.R`, contains a collection of helper functions for MSE simulations;
+
 ```r
 ## Gadget parameters placeholders
 oneGDGT <- list()
