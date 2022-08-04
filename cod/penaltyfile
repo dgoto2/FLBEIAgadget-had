@@ -1,6 +1,0 @@
-;
-; Penalty file
-;
-; switch	power	lowerW	upperW
-default	2	10000	10000
-
