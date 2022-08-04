@@ -2,7 +2,7 @@
 A Management Strategy Evaluation (MSE) framework using FLBEIA and Gadget
 
 ## Description
-FLBEIA-Gadget is a Management Strategy Evaluation (MSE) framework using a customized version of FLBEIA (Bio-Economic Impact Assessment of Management strategies; https://github.com/REDUS-IMR/FLBEIA) with an R package of customized Gadget (Globally applicable Area Disaggregated General Ecosystem Toolbox, https://github.com/Hafro/gadget2), GadgetR (https://github.com/REDUS-IMR/gadget and also see a quick user guide, https://redus-imr.github.io/gadget/index.html), as operating model (OM). This framework is designed to run single and multispecies MSEs with one or more fleets and one or more areas on quarterly and yearly time steps. This framework has been tested for a single-species OM (a simple haddock Gadget model, https://github.com/gadget-framework/gadget2) only, however. 
+FLBEIA-Gadget is a Management Strategy Evaluation (MSE) framework using a customized version of FLBEIA (Bio-Economic Impact Assessment of Management strategies; https://github.com/REDUS-IMR/FLBEIA) with an R package of customized Gadget (Globally applicable Area Disaggregated General Ecosystem Toolbox, https://github.com/Hafro/gadget2), GadgetR (https://github.com/REDUS-IMR/gadget and also see a quick user guide, https://redus-imr.github.io/gadget/index.html), as operating model (OM). This framework is designed to run single and multispecies MSEs with one or more fleets and one or more areas on quarterly and yearly time steps. This framework has been tested for single-species OMs (simple haddock (https://github.com/gadget-framework/gadget2) and cod (https://github.com/gadget-framework/rgadget) Gadget models) only, however. 
 
 ## Prerequisites
 Install the following packages:
@@ -65,13 +65,13 @@ convertStockName <- list(stk1 = "had")
 convertFleetName <- list(fl1 = "future")
 stockList <- c("had")
 
-## specify stocks and fleets for gadget input and simualtions 
+## specify stocks and fleets for gadget input and simulations 
 had.fleets <- c("comm", "survey", "future")
 had.stocks <- c("had")
 had.stocks.mature <- c("had")
 had.surveys <- c("survey")
 had.forecasts <- c("future")
-had.forecasts.tac.proportion <- c(0.232, 0.351, 0.298, 0.119) ## this needs to be the same as FLBEIA ################
+had.forecasts.tac.proportion <- c(0.232, 0.351, 0.298, 0.119) ## this needs to be the same as FLBEIA 
 #had.forecasts.tac.proportion <- c(1, 1, 1, 1)
 
 ## specify fleets and metiers
@@ -105,6 +105,34 @@ finalYear <- last.yr
 
 ```
 
+When using Gadget as OM, the following OM parameters need to be specificed as:
+```r
+## biols.ctrl: 
+growth.model     <- c('gadgetGrowth')
+
+## fleets.ctrl: 
+catch.models     <- 'gadgetCatch' 
+
+## add one parameter in the FLBEIA function, GDGT = oneGDGT, as
+FLBEIA(biols = biols,
+            SRs = SRs,
+            BDs = BDs,
+            GDGT = oneGDGT,      # GADGET as OM
+            fleets = fleets,
+            covars = covars,
+            indices = oneIndAge,
+            advice = advice,
+            main.ctrl = main.ctrl,
+            biols.ctrl = biols.ctrl,
+            fleets.ctrl = fleets.ctrl,
+            covars.ctrl = covars.ctrl,
+            obs.ctrl = obs.ctrl.age,
+            assess.ctrl = assess.ctrl.sam,
+            advice.ctrl = advice.ctrl)
+```
+
+#### Example output of MSE simualtions (using the haddock example model with SAM as assessment model). 
+<img src="https://github.com/dgoto2/FLBEIAgadget-test/blob/main/had.mse.plot.png?raw=true" width="600"> 
 
 ## References
 GadgetR: Interactive and Exploratory Gadget Model Simulation in R (https://redus-imr.github.io/gadget/index.html).
