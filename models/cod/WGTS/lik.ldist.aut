@@ -1,0 +1,80 @@
+; Gadget version 2.2.00-BETA running on hafstokkur Tue Dec  2 22:33:41 2014
+; Listing of the switches used in the current Gadget run
+Linf	codimmgrowergrowthcalcHmodelvariable	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimmrenewaldata	codmatgrowergrowthcalcHmodelvariable	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	
+k	codimmgrowergrowthcalcHmodelvariable	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimmrenewaldata	codmatgrowergrowthcalcHmodelvariable	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	
+bbin	codimmgrower	codmatgrower	
+cod.M	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	
+mult	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	
+age2	codimminitialcondmeandata	
+age3	codimminitialcondmeandata	
+age4	codimminitialcondmeandata	codmatinitialcondmeandata	
+age5	codimminitialcondmeandata	codmatinitialcondmeandata	
+age6	codimminitialcondmeandata	codmatinitialcondmeandata	
+age7	codimminitialcondmeandata	codmatinitialcondmeandata	
+age8	codimminitialcondmeandata	codmatinitialcondmeandata	
+mat1	codimmmaturitymodelvariable	
+mat2	codimmmaturitymodelvariable	
+rec0	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	
+recl	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	
+rec84	codimmrenewaldata	
+rec85	codimmrenewaldata	
+rec86	codimmrenewaldata	
+rec87	codimmrenewaldata	
+rec88	codimmrenewaldata	
+rec89	codimmrenewaldata	
+rec90	codimmrenewaldata	
+rec91	codimmrenewaldata	
+rec92	codimmrenewaldata	
+rec93	codimmrenewaldata	
+rec94	codimmrenewaldata	
+rec95	codimmrenewaldata	
+rec96	codimmrenewaldata	
+rec97	codimmrenewaldata	
+rec98	codimmrenewaldata	
+rec99	codimmrenewaldata	
+rec00	codimmrenewaldata	
+rec01	codimmrenewaldata	
+rec02	codimmrenewaldata	
+rec03	codimmrenewaldata	
+rec04	codimmrenewaldata	
+rec05	codimmrenewaldata	
+rec06	codimmrenewaldata	
+rec07	codimmrenewaldata	
+rec08	codimmrenewaldata	
+rec09	codimmrenewaldata	
+rec10	codimmrenewaldata	
+rec11	codimmrenewaldata	
+rec12	codimmrenewaldata	
+rec13	codimmrenewaldata	
+age9	codmatinitialcondmeandata	
+age10	codmatinitialcondmeandata	
+age11	codmatinitialcondmeandata	
+acomm	fleetcommpredatorcommsuitabilityforcodimmmodelvariable	fleetcommpredatorcommsuitabilityforcodmatmodelvariable	
+bcomm	fleetcommpredatorcommsuitabilityforcodimmmodelvariable	fleetcommpredatorcommsuitabilityforcodmatmodelvariable	
+aigfs	fleetigfspredatorigfssuitabilityforcodimmmodelvariable	fleetigfspredatorigfssuitabilityforcodmatmodelvariable	
+bigfs	fleetigfspredatorigfssuitabilityforcodimmmodelvariable	fleetigfspredatorigfssuitabilityforcodmatmodelvariable	
+aaut	fleetautpredatorautsuitabilityforcodimmmodelvariable	fleetautpredatorautsuitabilityforcodmatmodelvariable	
+baut	fleetautpredatorautsuitabilityforcodimmmodelvariable	fleetautpredatorautsuitabilityforcodmatmodelvariable	
+;
+; Listing of the likelihood components used in the current Gadget run
+;
+; Component	Type	Weight
+matp.igfs	6	0.00565931
+alkeys.aut	3	4.85201
+alkeys.comm	3	0.572738
+alkeys.igfs	3	3.4459
+ldist.aut	3	114129
+ldist.comm	3	1.31683
+ldist.igfs	3	4.21408
+si.gp1	1	0.0417711
+si.gp1a	1	1e-10
+si.gp2	1	0.217912
+si.gp2a	1	1e-10
+si.gp3	1	0.798722
+si.gp3a	1	0.470367
+understocking	2	100
+bounds	8	10
+;
+; Listing of the output from the likelihood components for the current Gadget run
+;
+0	       160    83.6703        100        0.2    44.6522    40.1942      97.79    94.1209    53.9509    19.2763    97.1512    11.1855    10.4884    99.9972       47.7          4    112.898    13.1095    86.5914    4.51113    62.8643    28.0135    22.0127    19.1062    47.4897      61.38     0.0001    48.7273    15.3028    42.9607    49.7409    28.7512    63.2623 0.000100001    45.7069    53.8461 0.000100003    45.4928    51.8236    22.2758    71.9335    132.511    167.966     89.263    237.861    125.062    63.9791    98.6632    85783.5   -10.5635    16.7116   -6.21875    6.79383   -5.30913    6.80819 		   695.5    0.579    5.033   0.8555  0.02551   0.4333   0.2779    26.04    8.747    8.256    5.255    1.464    2.704        0        0 		   2931.05560278048

@@ -1,0 +1,13 @@
+; main file for gadget - created in Rgadget
+; Variants/WGTS.cod2indsg/main.final - Wed Dec  3 10:56:29 2014
+timefile Modelfiles/time
+areafile Modelfiles/area
+printfiles ; no printfile supplied
+[stock]
+stockfiles Modelfiles/cod.imm	Modelfiles/cod.mat
+[tagging]
+[otherfood]
+[fleet]
+fleetfiles Modelfiles/cod.fleet
+[likelihood]
+likelihoodfiles WGTS/likelihood.final

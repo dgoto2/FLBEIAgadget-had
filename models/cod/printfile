@@ -1,0 +1,112 @@
+; gadget printfile, created in 2013-07-05
+[component]
+type	likelihoodsummaryprinter
+printfile	WGTS/out.final/likelihoodsummary
+;
+[component]
+type	likelihoodprinter
+likelihood	matp.igfs
+printfile	WGTS/out.final/matp.igfs
+;
+[component]
+type	likelihoodprinter
+likelihood	ldist.igfs
+printfile	WGTS/out.final/ldist.igfs
+;
+[component]
+type	likelihoodprinter
+likelihood	ldist.comm
+printfile	WGTS/out.final/ldist.comm
+;
+[component]
+type	likelihoodprinter
+likelihood	ldist.aut
+printfile	WGTS/out.final/ldist.aut
+;
+[component]
+type	likelihoodprinter
+likelihood	alkeys.igfs
+printfile	WGTS/out.final/alkeys.igfs
+;
+[component]
+type	likelihoodprinter
+likelihood	alkeys.comm
+printfile	WGTS/out.final/alkeys.comm
+;
+[component]
+type	likelihoodprinter
+likelihood	alkeys.aut
+printfile	WGTS/out.final/alkeys.aut
+;
+[component]
+type	likelihoodprinter
+likelihood	si.gp1
+printfile	WGTS/out.final/si.gp1
+;
+[component]
+type	likelihoodprinter
+likelihood	si.gp2
+printfile	WGTS/out.final/si.gp2
+;
+[component]
+type	likelihoodprinter
+likelihood	si.gp3
+printfile	WGTS/out.final/si.gp3
+;
+[component]
+type	likelihoodprinter
+likelihood	si.gp1a
+printfile	WGTS/out.final/si.gp1a
+;
+[component]
+type	likelihoodprinter
+likelihood	si.gp2a
+printfile	WGTS/out.final/si.gp2a
+;
+[component]
+type	likelihoodprinter
+likelihood	si.gp3a
+printfile	WGTS/out.final/si.gp3a
+;
+[component]
+type            stockstdprinter
+stockname       codimm
+printfile       WGTS/out.final/codimm.std   
+yearsandsteps   all all        
+;
+[component]
+type            stockstdprinter
+stockname       codmat
+printfile       WGTS/out.final/codmat.std   
+yearsandsteps   all all        
+;
+[component]
+type	         stockprinter
+stocknames       codimm codmat
+areaaggfile      Aggfiles/area.agg
+ageaggfile       Aggfiles/allage.agg
+lenaggfile       Aggfiles/len2.agg 
+printfile        WGTS/out.final/cod.lw
+printatstart	 0
+yearsandsteps 	 all all
+;
+[component]
+type	         stockprinter
+stocknames       codimm
+areaaggfile      Aggfiles/area.agg
+ageaggfile       Aggfiles/allage.agg
+lenaggfile       Aggfiles/len2.agg 
+printfile        WGTS/out.final/codimm.lw
+printatstart	 0
+yearsandsteps 	 all all
+;
+[component]
+type	         stockprinter
+stocknames       codmat
+areaaggfile      Aggfiles/area.agg
+ageaggfile       Aggfiles/allage.agg
+lenaggfile       Aggfiles/len2.agg 
+printfile        WGTS/out.final/codmat.lw
+printatstart	 0
+yearsandsteps 	 all all
+;
