@@ -1,0 +1,46 @@
+; [DST2 DW] [27 Jun 2013 13:10:50] [LOCALHOST:5432] [DW2013]
+;
+; hostname          : localhost (1)
+; database          : dw2013 ()
+; user              : dst2w ()
+; groupfile         : Control/dst2ext.grp ()
+; filetype          : GINI ()
+; years             : 85-03 ()
+; areas             : ALL ()
+; timestep          : 3 ()
+; species           : COD ()
+; stock             : 
+; lengthcell        : 20 ()
+; lengthcellmin     : 40 ()
+; lengthcellmax     : 280 ()
+; agemin            : 1 ()
+; agemax            : 4 ()
+; lmax              : 280 ()
+; amax              : 5 ()
+; alphabeta         : 0.0000065 3.07 ()
+; maturitystage     : 
+; gearclass         : 
+; gearsubclass      : 
+; vesselclass       : 
+; vesselsubclass    : 
+; fleetscale        : 1 ()
+; samplingtype      : 130 ()
+; alkeyscount       : 1 ()
+; altthreshold      : 1 ()
+; prediction        : 20012 ()
+; outputdir         : Cod/Initfiles ()
+; stockname         : codimm ()
+; prefix            : cod.imm ()
+; tagid             : tagid1 ()
+; tagloss           : 0 ()
+;
+; Notice: year(s) 1985, timestep 1 was used to generate GINI filetype.
+;
+;
+; age	area	agefactor	areafactor	meanlength	standdev	cond	alkeys
+;
+1	1	#age1		100.00		12.30		2.7477		1	; 150
+2	1	#age2		100.00		23.00		3.0935		1	; 154
+3	1	#age3		100.00		26.50		1.0000		1	; 4
+4	1	#age4		0.00		0.00		0.0000		1	; 0
+

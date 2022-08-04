@@ -1,0 +1,79 @@
+; Gadget version 2.2.00-BETA running on hafstokkur Thu Aug 28 22:02:38 2014
+; Listing of the switches used in the current Gadget run
+Linf	codimmgrowergrowthcalcHmodelvariable	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codmatgrowergrowthcalcHmodelvariable	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	
+k	codimmgrowergrowthcalcHmodelvariable	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codmatgrowergrowthcalcHmodelvariable	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	
+bbin	codimmgrower	codmatgrower	
+cod.M	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codimmnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	codmatnaturalmortalitymodelvariable	
+mult	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codimminitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	codmatinitialcondmeandata	
+age2	codimminitialcondmeandata	
+age3	codimminitialcondmeandata	
+age4	codimminitialcondmeandata	codmatinitialcondmeandata	
+age5	codimminitialcondmeandata	codmatinitialcondmeandata	
+age6	codimminitialcondmeandata	codmatinitialcondmeandata	
+age7	codimminitialcondmeandata	codmatinitialcondmeandata	
+age8	codimminitialcondmeandata	codmatinitialcondmeandata	
+mat1	codimmmaturitymodelvariable	
+mat2	codimmmaturitymodelvariable	
+rec0	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	codimmrenewaldata	
+rec84	codimmrenewaldata	
+rec85	codimmrenewaldata	
+rec86	codimmrenewaldata	
+rec87	codimmrenewaldata	
+rec88	codimmrenewaldata	
+rec89	codimmrenewaldata	
+rec90	codimmrenewaldata	
+rec91	codimmrenewaldata	
+rec92	codimmrenewaldata	
+rec93	codimmrenewaldata	
+rec94	codimmrenewaldata	
+rec95	codimmrenewaldata	
+rec96	codimmrenewaldata	
+rec97	codimmrenewaldata	
+rec98	codimmrenewaldata	
+rec99	codimmrenewaldata	
+rec00	codimmrenewaldata	
+rec01	codimmrenewaldata	
+rec02	codimmrenewaldata	
+rec03	codimmrenewaldata	
+rec04	codimmrenewaldata	
+rec05	codimmrenewaldata	
+rec06	codimmrenewaldata	
+rec07	codimmrenewaldata	
+rec08	codimmrenewaldata	
+rec09	codimmrenewaldata	
+rec10	codimmrenewaldata	
+rec11	codimmrenewaldata	
+rec12	codimmrenewaldata	
+rec13	codimmrenewaldata	
+age9	codmatinitialcondmeandata	
+age10	codmatinitialcondmeandata	
+age11	codmatinitialcondmeandata	
+acomm	fleetcommpredatorcommsuitabilityforcodimmmodelvariable	fleetcommpredatorcommsuitabilityforcodmatmodelvariable	
+bcomm	fleetcommpredatorcommsuitabilityforcodimmmodelvariable	fleetcommpredatorcommsuitabilityforcodmatmodelvariable	
+aigfs	fleetigfspredatorigfssuitabilityforcodimmmodelvariable	fleetigfspredatorigfssuitabilityforcodmatmodelvariable	
+bigfs	fleetigfspredatorigfssuitabilityforcodimmmodelvariable	fleetigfspredatorigfssuitabilityforcodmatmodelvariable	
+aaut	fleetautpredatorautsuitabilityforcodimmmodelvariable	fleetautpredatorautsuitabilityforcodmatmodelvariable	
+baut	fleetautpredatorautsuitabilityforcodimmmodelvariable	fleetautpredatorautsuitabilityforcodmatmodelvariable	
+;
+; Listing of the likelihood components used in the current Gadget run
+;
+; Component	Type	Weight
+matp.igfs	6	0.00460617
+alkeys.aut	3	5.82411
+alkeys.comm	3	0.932836
+alkeys.igfs	3	3.12891
+ldist.aut	3	9.09091
+ldist.comm	3	1.06644
+ldist.igfs	3	3.12402
+si.gp1	1	359.971
+si.gp1a	1	634.115
+si.gp2	1	0.141824
+si.gp2a	1	0.121669
+si.gp3	1	0.762195
+si.gp3a	1	0.480307
+understocking	2	100
+bounds	8	10
+;
+; Listing of the output from the likelihood components for the current Gadget run
+;
+0	       160    83.4567    95.2726        0.2    41.8783    78.6825    5.39002    79.4159    24.6195    56.6691    31.1508    50.4274    87.6164     36.705    158.437    23.2447        300    291.329    82.1978    77.5461    63.5911    130.129    66.9799    7.41801    94.9516        300    26.9532    106.146    25.1859    171.158        300    253.101    259.422    20.6255    222.363    135.455    58.1371    199.186    154.604    215.285    390.554    517.247    88.4002    319.917    874.182    69.6032    48.5022    23497.1         -3    89.9968   -7.82374    13.6891   -8.48923    14.3006 		     138   0.1551    5.115   0.3531  0.07463    13.18   0.3175    1.557   0.5764    16.28    3.174    9.783    5.354        0        0 		   961.691406047978

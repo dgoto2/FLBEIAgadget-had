@@ -1,0 +1,33 @@
+;
+; fleet	1: comm
+;
+[fleetcomponent]
+totalfleet		comm
+livesonareas		1
+multiplicative		1.0
+suitability
+codimm			function exponential	#acomm (* 0.01 #bcomm)  0 1
+codmat			function exponential	#acomm (* 0.01 #bcomm)  0 1
+amount			Data/cod.fleet.data
+;
+; fleet	2: igfs
+;
+[fleetcomponent]
+totalfleet		igfs
+livesonareas		1
+multiplicative		1.0
+suitability
+codimm			function exponential	#aigfs (* 0.01 #bigfs)  0 1
+codmat			function exponential	#aigfs (* 0.01 #bigfs)  0 1
+amount			Data/cod.fleet.data
+;
+; fleet	3: aut
+;
+[fleetcomponent]
+totalfleet		aut
+livesonareas		1
+multiplicative		1.0
+suitability
+codimm			function exponential	#aaut (* 0.01 #baut)  0 1
+codmat			function exponential	#aaut (* 0.01 #baut)  0 1
+amount			Data/cod.fleet.data

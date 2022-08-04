@@ -1,0 +1,3510 @@
+Gadget version 2.2.00-BETA running on a5614-VirtualBox Thu May  9 18:51:42 2019
+Log file to record Gadget actions that take place during this run
+
+Starting Gadget from directory: /home/a5614/git/flbeia-gadget/rgadget_cod
+using data from directory: /home/a5614/git/flbeia-gadget/rgadget_cod
+
+Checking to see if file WGTS/params.final can be opened ... OK
+Checking to see if file params.out can be opened ... OK
+
+Checking to see if file main can be opened ... OK
+Opening file main
+Checking to see if file Modelfiles/time can be opened ... OK
+Opening file Modelfiles/time
+Read time file - number of timesteps 208
+Closing file Modelfiles/time
+Checking to see if file Modelfiles/area can be opened ... OK
+Opening file Modelfiles/area
+Discarded invalid temperature data - number of invalid entries 4
+Read temperature data - number of entries 208
+Read area file - number of areas 1
+Closing file Modelfiles/area
+Checking to see if file Modelfiles/cod.imm can be opened ... OK
+Opening file Modelfiles/cod.imm
+Checking to see if file Aggfiles/len2.agg can be opened ... OK
+Opening file Aggfiles/len2.agg
+Read length aggregation file - number of entries 68
+Closing file Aggfiles/len2.agg
+Warning in stock - maximum lengths don't match for growth of codimm
+Read basic stock data for stock codimm
+Read growth data for stock codimm
+Read natural mortality data for stock codimm
+Checking to see if file Aggfiles/len2.agg can be opened ... OK
+Opening file Aggfiles/len2.agg
+Read length aggregation file - number of entries 68
+Closing file Aggfiles/len2.agg
+Read prey data for stock codimm
+Read predator data for stock codimm
+Checking to see if file Modelfiles/cod.imm.init can be opened ... OK
+Opening file Modelfiles/cod.imm.init
+Read initial conditions data file - number of entries 7
+Closing file Modelfiles/cod.imm.init
+Read initial conditions data for stock codimm
+Read migration data for stock codimm
+Checking to see if file Modelfiles/maturity can be opened ... OK
+Opening file Modelfiles/maturity
+Read maturity data file
+Closing file Modelfiles/maturity
+Read maturity data for stock codimm
+Read transition data for stock codimm
+Checking to see if file Initfiles/cod.imm.rec can be opened ... OK
+Opening file Initfiles/cod.imm.rec
+Discarded invalid renewal data - number of invalid entries 32
+Read renewal data file - number of entries 52
+Closing file Initfiles/cod.imm.rec
+Read renewal data for stock codimm
+Read spawning data for stock codimm
+Read stock OK - created stock codimm
+Closing file Modelfiles/cod.imm
+Checking to see if file Modelfiles/cod.mat can be opened ... OK
+Opening file Modelfiles/cod.mat
+Checking to see if file Aggfiles/len2.agg can be opened ... OK
+Opening file Aggfiles/len2.agg
+Read length aggregation file - number of entries 68
+Closing file Aggfiles/len2.agg
+Warning in stock - minimum lengths don't match for growth of codmat
+Read basic stock data for stock codmat
+Read growth data for stock codmat
+Read natural mortality data for stock codmat
+Checking to see if file Aggfiles/len2.agg can be opened ... OK
+Opening file Aggfiles/len2.agg
+Read length aggregation file - number of entries 68
+Closing file Aggfiles/len2.agg
+Read prey data for stock codmat
+Read predator data for stock codmat
+Checking to see if file Modelfiles/cod.mat.init can be opened ... OK
+Opening file Modelfiles/cod.mat.init
+Read initial conditions data file - number of entries 8
+Closing file Modelfiles/cod.mat.init
+Read initial conditions data for stock codmat
+Read migration data for stock codmat
+Read maturity data for stock codmat
+Read transition data for stock codmat
+Read renewal data for stock codmat
+Read spawning data for stock codmat
+Read stock OK - created stock codmat
+Closing file Modelfiles/cod.mat
+Checking to see if file Modelfiles/cod.fleet can be opened ... OK
+Opening file Modelfiles/cod.fleet
+Read predation data - number of preys 2
+Checking to see if file Data/cod.fleet.data can be opened ... OK
+Opening file Data/cod.fleet.data
+Discarded invalid amounts data - number of invalid entries 46
+Read amounts data file - number of entries 189
+Closing file Data/cod.fleet.data
+Read fleet OK - created fleet comm
+Read predation data - number of preys 2
+Checking to see if file Data/cod.fleet.data can be opened ... OK
+Opening file Data/cod.fleet.data
+Discarded invalid amounts data - number of invalid entries 207
+Read amounts data file - number of entries 28
+Closing file Data/cod.fleet.data
+Read fleet OK - created fleet igfs
+Read predation data - number of preys 2
+Checking to see if file Data/cod.fleet.data can be opened ... OK
+Opening file Data/cod.fleet.data
+Discarded invalid amounts data - number of invalid entries 218
+Read amounts data file - number of entries 17
+Closing file Data/cod.fleet.data
+Read fleet OK - created fleet aut
+Closing file Modelfiles/cod.fleet
+Checking to see if file likelihood can be opened ... OK
+Opening file likelihood
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/age_mat.agg can be opened ... OK
+Opening file Aggfiles/age_mat.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/age_mat.agg
+Checking to see if file Aggfiles/len_mat.agg can be opened ... OK
+Opening file Aggfiles/len_mat.agg
+Read length aggregation file - number of entries 44
+Closing file Aggfiles/len_mat.agg
+Read fleet data - number of fleets 1
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.alkstock.igfs can be opened ... OK
+Opening file Data/cod.alkstock.igfs
+Discarded invalid stockdistribution data - number of invalid entries 88
+Read stockdistribution data file - number of entries 2464
+Closing file Data/cod.alkstock.igfs
+Read likelihood OK - created likelihood component matp.igfs
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/age1-11.agg can be opened ... OK
+Opening file Aggfiles/age1-11.agg
+Read aggregation file - number of entries 11
+Closing file Aggfiles/age1-11.agg
+Checking to see if file Aggfiles/len4a.agg can be opened ... OK
+Opening file Aggfiles/len4a.agg
+Read length aggregation file - number of entries 31
+Closing file Aggfiles/len4a.agg
+Read fleet data - number of fleets 1
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.alkeys.aut can be opened ... OK
+Opening file Data/cod.alkeys.aut
+Discarded invalid catchdistribution data - number of invalid entries 527
+Read catchdistribution data file - number of entries 5797
+Closing file Data/cod.alkeys.aut
+Read likelihood OK - created likelihood component alkeys.aut
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/age4-9.agg can be opened ... OK
+Opening file Aggfiles/age4-9.agg
+Read aggregation file - number of entries 6
+Closing file Aggfiles/age4-9.agg
+Checking to see if file Aggfiles/len4c.agg can be opened ... OK
+Opening file Aggfiles/len4c.agg
+Read length aggregation file - number of entries 34
+Closing file Aggfiles/len4c.agg
+Read fleet data - number of fleets 1
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.alkeys.comm can be opened ... OK
+Opening file Data/cod.alkeys.comm
+Discarded invalid catchdistribution data - number of invalid entries 24276
+Read catchdistribution data file - number of entries 23868
+Closing file Data/cod.alkeys.comm
+Read likelihood OK - created likelihood component alkeys.comm
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/age.agg can be opened ... OK
+Opening file Aggfiles/age.agg
+Read aggregation file - number of entries 12
+Closing file Aggfiles/age.agg
+Checking to see if file Aggfiles/len4i.agg can be opened ... OK
+Opening file Aggfiles/len4i.agg
+Read length aggregation file - number of entries 34
+Closing file Aggfiles/len4i.agg
+Read fleet data - number of fleets 1
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.alkeys.igfs can be opened ... OK
+Opening file Data/cod.alkeys.igfs
+Discarded invalid catchdistribution data - number of invalid entries 408
+Read catchdistribution data file - number of entries 11424
+Closing file Data/cod.alkeys.igfs
+Read likelihood OK - created likelihood component alkeys.igfs
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/allage.agg can be opened ... OK
+Opening file Aggfiles/allage.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/allage.agg
+Checking to see if file Aggfiles/len2a.agg can be opened ... OK
+Opening file Aggfiles/len2a.agg
+Read length aggregation file - number of entries 62
+Closing file Aggfiles/len2a.agg
+Read fleet data - number of fleets 1
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.ldist.aut can be opened ... OK
+Opening file Data/cod.ldist.aut
+Read catchdistribution data file - number of entries 1054
+Closing file Data/cod.ldist.aut
+Read likelihood OK - created likelihood component ldist.aut
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/allage.agg can be opened ... OK
+Opening file Aggfiles/allage.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/allage.agg
+Checking to see if file Aggfiles/len2c.agg can be opened ... OK
+Opening file Aggfiles/len2c.agg
+Read length aggregation file - number of entries 68
+Closing file Aggfiles/len2c.agg
+Read fleet data - number of fleets 1
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.ldist.comm can be opened ... OK
+Opening file Data/cod.ldist.comm
+Discarded invalid catchdistribution data - number of invalid entries 68
+Read catchdistribution data file - number of entries 7956
+Closing file Data/cod.ldist.comm
+Read likelihood OK - created likelihood component ldist.comm
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/allage.agg can be opened ... OK
+Opening file Aggfiles/allage.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/allage.agg
+Checking to see if file Aggfiles/len2i.agg can be opened ... OK
+Opening file Aggfiles/len2i.agg
+Read length aggregation file - number of entries 68
+Closing file Aggfiles/len2i.agg
+Read fleet data - number of fleets 1
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.ldist.igfs can be opened ... OK
+Opening file Data/cod.ldist.igfs
+Discarded invalid catchdistribution data - number of invalid entries 68
+Read catchdistribution data file - number of entries 1904
+Closing file Data/cod.ldist.igfs
+Read likelihood OK - created likelihood component ldist.igfs
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/si_lengp1S.agg can be opened ... OK
+Opening file Aggfiles/si_lengp1S.agg
+Read length aggregation file - number of entries 1
+Closing file Aggfiles/si_lengp1S.agg
+Read stock data - number of stocks 1
+Checking to see if file Data/cod.ind.ldist.igfs can be opened ... OK
+Opening file Data/cod.ind.ldist.igfs
+Discarded invalid surveyindex data - number of invalid entries 59
+Read surveyindex data file - number of entries 28
+Closing file Data/cod.ind.ldist.igfs
+Read likelihood OK - created likelihood component si.gp1
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/si_lengp1A.agg can be opened ... OK
+Opening file Aggfiles/si_lengp1A.agg
+Read length aggregation file - number of entries 1
+Closing file Aggfiles/si_lengp1A.agg
+Read stock data - number of stocks 1
+Checking to see if file Data/cod.ind.ldist.aut can be opened ... OK
+Opening file Data/cod.ind.ldist.aut
+Discarded invalid surveyindex data - number of invalid entries 34
+Read surveyindex data file - number of entries 17
+Closing file Data/cod.ind.ldist.aut
+Read likelihood OK - created likelihood component si.gp1a
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/si_lengp2S.agg can be opened ... OK
+Opening file Aggfiles/si_lengp2S.agg
+Read length aggregation file - number of entries 1
+Closing file Aggfiles/si_lengp2S.agg
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.ind.ldist.igfs can be opened ... OK
+Opening file Data/cod.ind.ldist.igfs
+Discarded invalid surveyindex data - number of invalid entries 59
+Read surveyindex data file - number of entries 28
+Closing file Data/cod.ind.ldist.igfs
+Read likelihood OK - created likelihood component si.gp2
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/si_lengp2A.agg can be opened ... OK
+Opening file Aggfiles/si_lengp2A.agg
+Read length aggregation file - number of entries 1
+Closing file Aggfiles/si_lengp2A.agg
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.ind.ldist.aut can be opened ... OK
+Opening file Data/cod.ind.ldist.aut
+Discarded invalid surveyindex data - number of invalid entries 34
+Read surveyindex data file - number of entries 17
+Closing file Data/cod.ind.ldist.aut
+Read likelihood OK - created likelihood component si.gp2a
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/si_lengp3S.agg can be opened ... OK
+Opening file Aggfiles/si_lengp3S.agg
+Read length aggregation file - number of entries 1
+Closing file Aggfiles/si_lengp3S.agg
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.ind.ldist.igfs can be opened ... OK
+Opening file Data/cod.ind.ldist.igfs
+Discarded invalid surveyindex data - number of invalid entries 59
+Read surveyindex data file - number of entries 28
+Closing file Data/cod.ind.ldist.igfs
+Read likelihood OK - created likelihood component si.gp3
+Checking to see if file Aggfiles/area.agg can be opened ... OK
+Opening file Aggfiles/area.agg
+Read aggregation file - number of entries 1
+Closing file Aggfiles/area.agg
+Checking to see if file Aggfiles/si_lengp3A.agg can be opened ... OK
+Opening file Aggfiles/si_lengp3A.agg
+Read length aggregation file - number of entries 1
+Closing file Aggfiles/si_lengp3A.agg
+Read stock data - number of stocks 2
+Checking to see if file Data/cod.ind.ldist.aut can be opened ... OK
+Opening file Data/cod.ind.ldist.aut
+Discarded invalid surveyindex data - number of invalid entries 34
+Read surveyindex data file - number of entries 17
+Closing file Data/cod.ind.ldist.aut
+Read likelihood OK - created likelihood component si.gp3a
+Read likelihood OK - created likelihood component understocking
+Checking to see if file Modelfiles/penaltyfile can be opened ... OK
+Opening file Modelfiles/penaltyfile
+Read penalty file - number of entries 1
+Closing file Modelfiles/penaltyfile
+Read likelihood OK - created likelihood component bounds
+Closing file likelihood
+Closing file main
+
+Finished reading model data files, starting to run simulation
+
+Checking to see if file WGTS/params.final can be opened ... OK
+Opening file WGTS/params.final
+Closing file WGTS/params.final
+
+Initialising stock codimm
+Warning in prey - maximum lengths don't match for consumption of codimm
+Calculated initial condition data for stock codimm
+Initialising stock codmat
+Warning in prey - minimum lengths don't match for consumption of codmat
+Calculated initial condition data for stock codmat
+Initialising predator comm
+Initialising predator igfs
+Initialising predator aut
+Initialising likelihood component matp.igfs
+Initialising likelihood component alkeys.aut
+Initialising likelihood component alkeys.comm
+Initialising likelihood component alkeys.igfs
+Initialising likelihood component ldist.aut
+Warning in catchdistribution - maximum age greater than stock age
+Initialising likelihood component ldist.comm
+Warning in catchdistribution - maximum age greater than stock age
+Initialising likelihood component ldist.igfs
+Warning in catchdistribution - maximum age greater than stock age
+Initialising likelihood component si.gp1
+Initialising likelihood component si.gp1a
+Initialising likelihood component si.gp2
+Initialising likelihood component si.gp2a
+Initialising likelihood component si.gp3
+Initialising likelihood component si.gp3a
+Initialising likelihood component understocking
+Initialising likelihood component bounds
+
+Reset stockdistribution component matp.igfs
+Reset catchdistribution component alkeys.aut
+Reset catchdistribution component alkeys.comm
+Reset catchdistribution component alkeys.igfs
+Reset catchdistribution component ldist.aut
+Reset catchdistribution component ldist.comm
+Reset catchdistribution component ldist.igfs
+Reset surveyindex component si.gp1
+Reset surveyindex component si.gp1a
+Reset surveyindex component si.gp2
+Reset surveyindex component si.gp2a
+Reset surveyindex component si.gp3
+Reset surveyindex component si.gp3a
+Reset understocking component understocking
+Reset boundlikelihood component bounds
+For this model simulation, no parameters are outside the bounds
+Calculated likelihood score for boundlikelihood component to be 0
+
+Reset time in the simulation to timestep 1
+Reset natural mortality data for stock codimm
+Reset maturity data for stock codimm
+Reset consumption data for prey codimm
+Calculated initial condition data for stock codimm
+Reset renewal data for stock codimm
+Reset grower data for stock codimm
+Reset transition data for stock codimm
+Reset stock data for stock codimm
+Reset natural mortality data for stock codmat
+Reset consumption data for prey codmat
+Calculated initial condition data for stock codmat
+Reset grower data for stock codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 2
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 3
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 4
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 5
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 6
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 7
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 8
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 9
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 10
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 11
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 12
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 13
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 14
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 15
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 16
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 17
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 18
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 19
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 20
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 21
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 22
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 23
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 24
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 25
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 26
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 27
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 28
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 29
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 30
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 31
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 32
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 33
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 34
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 35
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 36
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 37
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 38
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 39
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 40
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 41
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 42
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 43
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 44
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 45
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 46
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 47
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 48
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 49
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 50
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 51
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 52
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 53
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 54
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 55
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 56
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 57
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 58
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 59
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 60
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 61
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 62
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 63
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 64
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 65
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 66
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 67
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 68
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 69
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.74832e+14
+
+Increased time in the simulation to timestep 70
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.05903e+14
+
+Increased time in the simulation to timestep 71
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+
+Increased time in the simulation to timestep 72
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.2434e+15
+
+Increased time in the simulation to timestep 73
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.16697e+15
+
+Increased time in the simulation to timestep 74
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 5.24334e+14
+
+Increased time in the simulation to timestep 75
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.02921e+14
+
+Increased time in the simulation to timestep 76
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 8.7102e+15
+
+Increased time in the simulation to timestep 77
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.54334e+15
+
+Increased time in the simulation to timestep 78
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.53528e+15
+
+Increased time in the simulation to timestep 79
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.47455e+14
+
+Increased time in the simulation to timestep 80
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 5.28195e+15
+
+Increased time in the simulation to timestep 81
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.13116e+16
+
+Increased time in the simulation to timestep 82
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.30625e+15
+
+Increased time in the simulation to timestep 83
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.11731e+15
+
+Increased time in the simulation to timestep 84
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.23651e+16
+
+Increased time in the simulation to timestep 85
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.28795e+16
+
+Increased time in the simulation to timestep 86
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.65507e+15
+
+Increased time in the simulation to timestep 87
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.59955e+15
+
+Increased time in the simulation to timestep 88
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 9.5437e+15
+
+Increased time in the simulation to timestep 89
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 7.55335e+15
+
+Increased time in the simulation to timestep 90
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.60282e+15
+
+Increased time in the simulation to timestep 91
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.31666e+15
+
+Increased time in the simulation to timestep 92
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.124258
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.134492
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 7.40631e+15
+
+Increased time in the simulation to timestep 93
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.116211
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.250696
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.47799e+15
+
+Increased time in the simulation to timestep 94
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0507027
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.189958
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.46872e+15
+
+Increased time in the simulation to timestep 95
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0435242
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.164111
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.46717e+15
+
+Increased time in the simulation to timestep 96
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.15164
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.149094
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 9.46322e+15
+
+Increased time in the simulation to timestep 97
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 7.9806
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.140289
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.354934
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.25571
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.212492
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 7.69147e+15
+
+Increased time in the simulation to timestep 98
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.119085
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.196327
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 7.25396e+15
+
+Increased time in the simulation to timestep 99
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0978724
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.165645
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.16196e+15
+
+Increased time in the simulation to timestep 100
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.167966
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.138802
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.50181e+16
+
+Increased time in the simulation to timestep 101
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 6.59401
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.157177
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.397953
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.269029
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.224167
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 9.3808e+15
+
+Increased time in the simulation to timestep 102
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.115737
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.186112
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 7.30126e+15
+
+Increased time in the simulation to timestep 103
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.116628
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.160582
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.27198e+15
+
+Increased time in the simulation to timestep 104
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.109469
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.151141
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.4403e+16
+
+Increased time in the simulation to timestep 105
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 5.2777
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.124261
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.432759
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.307556
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.280404
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.11886e+16
+
+Increased time in the simulation to timestep 106
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0784175
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.205353
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.10498e+16
+
+Increased time in the simulation to timestep 107
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0461264
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.173932
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.23965e+15
+
+Increased time in the simulation to timestep 108
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.143871
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.152319
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.25198e+16
+
+Increased time in the simulation to timestep 109
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 5.99463
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.148077
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.450719
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.318778
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.292755
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.07125e+16
+
+Increased time in the simulation to timestep 110
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.134821
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.200487
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 7.929e+15
+
+Increased time in the simulation to timestep 111
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0961991
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.173827
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.7089e+15
+
+Increased time in the simulation to timestep 112
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.16093
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.15209
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.31098e+16
+
+Increased time in the simulation to timestep 113
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 9.36147
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.193734
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.319233
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.204537
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.171039
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 9.87569e+15
+
+Increased time in the simulation to timestep 114
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.133525
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.176542
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 5.89931e+15
+
+Increased time in the simulation to timestep 115
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.12329
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.157673
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.64316e+15
+
+Increased time in the simulation to timestep 116
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.189535
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.133416
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.0216e+16
+
+Increased time in the simulation to timestep 117
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 9.27013
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.193297
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.464446
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.316939
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.263522
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 8.2379e+15
+
+Increased time in the simulation to timestep 118
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.155571
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.203561
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.34527e+15
+
+Increased time in the simulation to timestep 119
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.153458
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.17352
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.45727e+15
+
+Increased time in the simulation to timestep 120
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.174594
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.13987
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 8.06352e+15
+
+Increased time in the simulation to timestep 121
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 8.42498
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.156938
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.430207
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.276481
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.242057
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 8.97807e+15
+
+Increased time in the simulation to timestep 122
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.115098
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.193018
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.96416e+15
+
+Increased time in the simulation to timestep 123
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0824527
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.157726
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.41128e+15
+
+Increased time in the simulation to timestep 124
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.165264
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.134558
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.99846e+15
+
+Increased time in the simulation to timestep 125
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 9.50381
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.170397
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.328077
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.200208
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.189649
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 5.13634e+15
+
+Increased time in the simulation to timestep 126
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.112863
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.168904
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.39577e+15
+
+Increased time in the simulation to timestep 127
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0944676
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.152147
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.88232e+15
+
+Increased time in the simulation to timestep 128
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.127672
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.12764
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.62296e+15
+
+Increased time in the simulation to timestep 129
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 8.79076
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.146899
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.487939
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.330305
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.303213
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.61275e+15
+
+Increased time in the simulation to timestep 130
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0845232
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.201469
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.02206e+15
+
+Increased time in the simulation to timestep 131
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.064702
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.17399
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.73397e+15
+
+Increased time in the simulation to timestep 132
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.135621
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.148509
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.42163e+15
+
+Increased time in the simulation to timestep 133
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 9.30278
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.134286
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.494454
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.415877
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.314726
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.79275e+15
+
+Increased time in the simulation to timestep 134
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0770358
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.211771
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.26987e+15
+
+Increased time in the simulation to timestep 135
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.101178
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.167679
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.83566e+15
+
+Increased time in the simulation to timestep 136
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.162768
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.139152
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.6041e+15
+
+Increased time in the simulation to timestep 137
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 11.9451
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.17392
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.634159
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.548993
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.565718
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.38181e+15
+
+Increased time in the simulation to timestep 138
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.149048
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.206107
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.52858e+15
+
+Increased time in the simulation to timestep 139
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.362888
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.143965
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.19311
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.165033
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.25821e+15
+
+Increased time in the simulation to timestep 140
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.157766
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.133501
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.901e+15
+
+Increased time in the simulation to timestep 141
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 7.6158
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.156529
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.446442
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.273746
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.251778
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.17478e+15
+
+Increased time in the simulation to timestep 142
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.123209
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.178186
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 9.41052e+14
+
+Increased time in the simulation to timestep 143
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.305034
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.101636
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.16666
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.153523
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.222e+15
+
+Increased time in the simulation to timestep 144
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.145895
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.134545
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.29725e+15
+
+Increased time in the simulation to timestep 145
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 9.9398
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.148072
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.507115
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.330477
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.317858
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.90667e+15
+
+Increased time in the simulation to timestep 146
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.117519
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.189647
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.58827e+15
+
+Increased time in the simulation to timestep 147
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.3599
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0849034
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.192158
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.165352
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.93097e+15
+
+Increased time in the simulation to timestep 148
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.17438
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.133535
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.66553e+15
+
+Increased time in the simulation to timestep 149
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 7.54731
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.182018
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.408076
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.261962
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.207991
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.31568e+15
+
+Increased time in the simulation to timestep 150
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.157027
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.189623
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.47031e+15
+
+Increased time in the simulation to timestep 151
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.303186
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.175726
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.173434
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.16034
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.12577e+15
+
+Increased time in the simulation to timestep 152
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.168561
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.137211
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.94337e+15
+
+Increased time in the simulation to timestep 153
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 11.3121
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.16518
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.458339
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.305007
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.25272
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.55127e+15
+
+Increased time in the simulation to timestep 154
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.117157
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.192328
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.12646e+15
+
+Increased time in the simulation to timestep 155
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.295966
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0928323
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.158561
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.162587
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.67095e+15
+
+Increased time in the simulation to timestep 156
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.189107
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.141396
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.32938e+15
+
+Increased time in the simulation to timestep 157
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 7.06796
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.18041
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.439481
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.33344
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.243361
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.32955e+15
+
+Increased time in the simulation to timestep 158
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.153225
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.192751
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.13161e+15
+
+Increased time in the simulation to timestep 159
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.310374
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.140398
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.166302
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.165798
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.37146e+15
+
+Increased time in the simulation to timestep 160
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.103722
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.143563
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 5.81888e+15
+
+Increased time in the simulation to timestep 161
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 9.56439
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.128033
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.396688
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.265125
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.199511
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.04644e+15
+
+Increased time in the simulation to timestep 162
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0846687
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.187606
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.32985e+15
+
+Increased time in the simulation to timestep 163
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.29304
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0626185
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.158858
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.162783
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.76666e+15
+
+Increased time in the simulation to timestep 164
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.1434
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.13822
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.67886e+15
+
+Increased time in the simulation to timestep 165
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 8.29277
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.140259
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.508209
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.341549
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.324989
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.34024e+15
+
+Increased time in the simulation to timestep 166
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.110503
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.188464
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.53747e+15
+
+Increased time in the simulation to timestep 167
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.347541
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0844358
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.19626
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.162807
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.59131e+15
+
+Increased time in the simulation to timestep 168
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.139147
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.149243
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.95227e+15
+
+Increased time in the simulation to timestep 169
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 6.41526
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.155505
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.478358
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.358486
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.296384
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.67803e+15
+
+Increased time in the simulation to timestep 170
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.118341
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.201506
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.52557e+15
+
+Increased time in the simulation to timestep 171
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.318877
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0931059
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.185188
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.169514
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.9842e+15
+
+Increased time in the simulation to timestep 172
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.158761
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.146533
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.85281e+15
+
+Increased time in the simulation to timestep 173
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 10.6141
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.156835
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.418771
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.268741
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.231616
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.60713e+15
+
+Increased time in the simulation to timestep 174
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.156566
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.191485
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.67213e+15
+
+Increased time in the simulation to timestep 175
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.309009
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0980058
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.177908
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.168248
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.10985e+15
+
+Increased time in the simulation to timestep 176
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.192679
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.142568
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.54617e+15
+
+Increased time in the simulation to timestep 177
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 9.578
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.194397
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.540371
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.412625
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.37888
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.36022e+15
+
+Increased time in the simulation to timestep 178
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.176481
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.204071
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.22573e+15
+
+Increased time in the simulation to timestep 179
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.352358
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.17426
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.194427
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.171346
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.93036e+15
+
+Increased time in the simulation to timestep 180
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.167021
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.13997
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 4.35573e+15
+
+Increased time in the simulation to timestep 181
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 7.95155
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.155003
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.51679
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.401192
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.335904
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.95574e+15
+
+Increased time in the simulation to timestep 182
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.10628
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.201332
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.24093e+15
+
+Increased time in the simulation to timestep 183
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.316562
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0993924
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.180824
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.167212
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.11464e+15
+
+Increased time in the simulation to timestep 184
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.152324
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.138297
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.93156e+15
+
+Increased time in the simulation to timestep 185
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 10.0105
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.165809
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.501499
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.361676
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.312148
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.02798e+15
+
+Increased time in the simulation to timestep 186
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.139332
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.196581
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 6.67852e+14
+
+Increased time in the simulation to timestep 187
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.323111
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.0980214
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.175657
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.166687
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.00841e+15
+
+Increased time in the simulation to timestep 188
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.175697
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.14131
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.9999e+15
+
+Increased time in the simulation to timestep 189
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 11.6912
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.181001
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.507719
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.373494
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.320344
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.45439e+15
+
+Increased time in the simulation to timestep 190
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.156139
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.195113
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 5.8682e+14
+
+Increased time in the simulation to timestep 191
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.316844
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.1331
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.17068
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.155242
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.25332e+15
+
+Increased time in the simulation to timestep 192
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.185856
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.135446
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.50035e+15
+
+Increased time in the simulation to timestep 193
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 9.88864
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.185219
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.455709
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.353328
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.231069
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.7059e+15
+
+Increased time in the simulation to timestep 194
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.134997
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.191711
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.10278e+15
+
+Increased time in the simulation to timestep 195
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.300148
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.133526
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.163975
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.161432
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.99658e+15
+
+Increased time in the simulation to timestep 196
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.17282
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.133852
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.02107e+15
+
+Increased time in the simulation to timestep 197
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 10.2582
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.179547
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.445838
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.330692
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.235709
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.05853e+15
+
+Increased time in the simulation to timestep 198
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.12466
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.191929
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 9.60491e+14
+
+Increased time in the simulation to timestep 199
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.288029
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.126891
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.145672
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.152881
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.06462e+15
+
+Increased time in the simulation to timestep 200
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.170301
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.136016
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.53883e+15
+
+Increased time in the simulation to timestep 201
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 7.19948
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.172973
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.489148
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.334664
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.299932
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.29589e+15
+
+Increased time in the simulation to timestep 202
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.13257
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.184473
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 9.74153e+14
+
+Increased time in the simulation to timestep 203
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.126025
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.150086
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 2.47907e+15
+
+Increased time in the simulation to timestep 204
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.165372
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.130592
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.16316e+15
+
+Increased time in the simulation to timestep 205
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for stockdistribution component matp.igfs
+The likelihood score for this component on this timestep is 8.38001
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.175266
+Calculating likelihood score for catchdistribution component alkeys.igfs
+The likelihood score for this component on this timestep is 0.353715
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.240162
+Calculating likelihood score for catchdistribution component ldist.igfs
+The likelihood score for this component on this timestep is 0.163083
+Calculating index for surveyindex component si.gp1
+Calculating index for surveyindex component si.gp2
+Calculating index for surveyindex component si.gp3
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.44706e+15
+
+Increased time in the simulation to timestep 206
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.115557
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.169986
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 1.32413e+15
+
+Increased time in the simulation to timestep 207
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.aut
+The likelihood score for this component on this timestep is 0.267178
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.125433
+Calculating likelihood score for catchdistribution component ldist.aut
+The likelihood score for this component on this timestep is 0.148108
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.142037
+Calculating index for surveyindex component si.gp1a
+Calculating index for surveyindex component si.gp2a
+Calculating index for surveyindex component si.gp3a
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 3.25333e+15
+
+Increased time in the simulation to timestep 208
+Reset consumption data for prey codimm
+Reset stock data for stock codimm
+Reset consumption data for prey codmat
+Reset stock data for stock codmat
+Reset predatation data for predator comm
+Reset predatation data for predator igfs
+Reset predatation data for predator aut
+Calculating likelihood score for catchdistribution component alkeys.comm
+The likelihood score for this component on this timestep is 0.16638
+Calculating likelihood score for catchdistribution component ldist.comm
+The likelihood score for this component on this timestep is 0.124814
+Calculating likelihood score for surveyindex component si.gp1
+The likelihood score from the regression line for this component is 4.49398
+Calculating likelihood score for surveyindex component si.gp1a
+The likelihood score from the regression line for this component is 5.37979
+Calculating likelihood score for surveyindex component si.gp2
+The likelihood score from the regression line for this component is 9.0571
+Calculating likelihood score for surveyindex component si.gp2a
+Warning in regression - negative slope for regression line -0.121839
+The likelihood score from the regression line for this component is 8.09643
+Calculating likelihood score for surveyindex component si.gp3
+The likelihood score from the regression line for this component is 23.1028
+Calculating likelihood score for surveyindex component si.gp3a
+The likelihood score from the regression line for this component is 6.41239
+Checking understocking likelihood component understocking
+The likelihood score for this component on this timestep is 7.0332e+14
+
+The simulation has reached the last timestep for the current model run
+
+The current likelihood scores for each component are:
+matp.igfs 11820.5
+alkeys.aut 180431
+alkeys.comm 272439
+alkeys.igfs 444445
+ldist.aut 103652
+ldist.comm 562525
+ldist.igfs 237259
+si.gp1 31.9347
+si.gp1a 5.84386
+si.gp2 263.949
+si.gp2a 19.4846
+si.gp3 1965.33
+si.gp3a 641.239
+understocking 5.80934e+19
+bounds 0
+
+The current overall likelihood score is 5.80934e+19
+
+Checking to see if file params.out can be opened ... OK
+Opening file params.out
+Closing file params.out
+
+Total number of warnings was 8
+
+Gadget simulation finished OK - runtime was 0 seconds

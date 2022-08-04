@@ -1,0 +1,11 @@
+Gadget version 2.2.00-BETA running on a5614-VirtualBox Thu May  9 18:51:17 2019
+Log file to record Gadget actions that take place during this run
+
+Starting Gadget from directory: /home/a5614/git/flbeia-gadget/rgadget_cod/WGTS
+using data from directory: /home/a5614/git/flbeia-gadget/rgadget_cod/WGTS
+
+Checking to see if file params.final can be opened ... OK
+Checking to see if file params.out can be opened ... OK
+
+Checking to see if file main can be opened ... failed
+Error on commandline - failed to open datafile main

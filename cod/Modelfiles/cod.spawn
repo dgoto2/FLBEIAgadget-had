@@ -1,0 +1,10 @@
+spawnsteps	1
+spawnareas	1
+firstspawnyear	1962
+lastspawnyear	1984
+spawnstocksandratios    codimm       1
+proportionfunction      constant        1 
+mortalityfunction       constant        0
+weightlossfunction      constant        0
+recruitment     ricker	#codmu		(* 1e-8 #codlambda)
+stockparameters (* #Linf (- 1 (exp (* -0.001 #k ))))   3.1241  6.5e-6 3.07

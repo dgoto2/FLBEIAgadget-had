@@ -1,0 +1,66 @@
+; Gadget version 2.2.00-BETA running on hafstokkur Tue Dec  2 14:50:52 2014
+; Simulated Annealing algorithm ran for 156350 function evaluations
+; and stopped when the likelihood value was 2944.1375
+; because the convergence criteria were met
+; Hooke & Jeeves algorithm ran for 2641 function evaluations
+; and stopped when the likelihood value was 2943.5771
+; because the convergence criteria were met
+; BFGS algorithm ran for 1095 function evaluations
+; and stopped when the likelihood value was 2943.582
+; because the accuracy limit for the gradient calculation was reached
+switch	value		lower	upper	optimise
+Linf	         160	      80     2000        0
+k	   97.109078	       1      200        1
+bbin	         100	   1e-08      100        1
+cod.M	         0.2	    0.01        1        0
+mult	   470.07551	     0.1     1000        1
+age2	   19.554108	    0.01      150        1
+age3	   69.268392	    0.01      120        1
+age4	   54.504659	   0.001      100        1
+age5	         100	  0.0001      100        1
+age6	   2.4818771	   1e-05      100        1
+age7	   1.5197771	   1e-08      100        1
+age8	   53.525853	   1e-10      100        1
+mat1	   122.55759	      10      200        1
+mat2	   82.901608	      30      100        1
+rec0	   54.504504	  0.0001      999        1
+recl	   11.545412	       4       28        1
+rec84	   220.88799	  0.0001      300        1
+rec85	   100.97795	  0.0001      300        1
+rec86	   49.090681	  0.0001      300        1
+rec87	   78.124693	  0.0001      300        1
+rec88	    2.943362	  0.0001      300        1
+rec89	   42.287016	  0.0001      300        1
+rec90	   131.52646	  0.0001      300        1
+rec91	   102.11168	  0.0001      300        1
+rec92	   41.258401	  0.0001      300        1
+rec93	    103.8719	  0.0001      300        1
+rec94	   127.70682	  0.0001      300        1
+rec95	   39.556663	  0.0001      300        1
+rec96	   97.916345	  0.0001      300        1
+rec97	    24.93496	  0.0001      300        1
+rec98	   114.13383	  0.0001      300        1
+rec99	   103.00192	  0.0001      300        1
+rec00	   89.187848	  0.0001      300        1
+rec01	   122.78403	  0.0001      300        1
+rec02	   30.676388	  0.0001      300        1
+rec03	   99.663613	  0.0001      300        1
+rec04	   79.204314	  0.0001      999        1
+rec05	   42.207263	  0.0001      999        1
+rec06	   87.530402	  0.0001      999        1
+rec07	   81.441215	  0.0001      999        1
+rec08	   102.79051	  0.0001      999        1
+rec09	   203.97547	  0.0001      999        1
+rec10	   268.65869	  0.0001      999        1
+rec11	   285.64671	  0.0001      999        1
+rec12	   781.14897	  0.0001      999        1
+rec13	   931.13374	  0.0001      999        1
+age9	   99.499512	   1e-12      100        1
+age10	   98.773193	   1e-15      100        1
+age11	   14504.386	   1e-15    1e+05        1
+acomm	  -6.9690342	     -50       -3        1
+bcomm	   79.213866	       1       90        1
+aigfs	  -5.2350395	     -10     -0.2        1
+bigfs	   11.053924	       1       90        1
+aaut	  -5.7686938	     -10     -0.2        1
+baut	   10.998071	       1       90        1

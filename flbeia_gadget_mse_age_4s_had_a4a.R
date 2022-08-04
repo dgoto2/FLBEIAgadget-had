@@ -5,7 +5,7 @@
 
 ## install packages
 #devtools::install_github("REDUS-IMR/FLBEIA", ref="FLBEIAgadget") # FLBEIA modified to work with a gadget model as OM
-#devtools::install_github("REDUS-IMR/gadget", ref="gadgetr") # linking with a gadget model
+#devtools::install_github("REDUS-IMR/gadget", ref="gadgetr")
 #devtools::install_github("hafro/rgadget")
 
 ## load packages
@@ -30,9 +30,7 @@ setwd(list.dirs(path = path_model, recursive = T)[1])
 mypath <- getwd()
 
 ## To estimate the model parameters the suggested procedure is to use the iterative reweighting approach (gadget.iterative)
-## If you ran the gadget.iterative you simply type:
 ## fit <- gadget.fit()
-## but otherwise do:
 paramsfile <- 'refinputfile'
 fit <- gadget.fit(wgts = NULL, params.file = paramsfile, steps = "all")
 
@@ -42,31 +40,24 @@ dir <- getwd()
 
 ## FLBEIA Conditioning
 ## biols: 
-## An FLBiols object that contains biological information of stk1 relative to 'real' biological population within OM.
 first.yr          <- 1978
 proj.yr           <- 2000
 last.yr           <- 2020
 yrs <- c(first.yr = first.yr, proj.yr = proj.yr, last.yr = last.yr)
-
-##  Set names, age, dimensions 
 fls  <- c('fl1')
 stks <- c('stk1')
 fl1.mets       <- c('met1')
 fl1.met1.stks  <- c('stk1')
-
-## all stocks the same
-ni           <- 1 # the number of iterations -> If gadget is the OM, it only works w/ ni=1
-it           <- 1:ni # interation id
-ns           <- 4 # the number of seasons
-na <- 1 # the number of areas
-nu <- 1 # the number of units
-
-## stock stk1 - (for haddock, age 1-10+)
+ni           <- 1 # If gadget is the OM, it only works w/ ni=1
+it           <- 1:ni
+ns           <- 4 
+na <- 1
+nu <- 1 
 stk1.age.min    <- 1
 stk1.age.max    <- 10
 stk1.unit       <- 1         
 
-## main.ctrl: Controls the settings with the initial and final year of the projected period.
+## main.ctrl
 main.ctrl           <- list()
 main.ctrl$sim.years <- c(initial = proj.yr, final = last.yr)
 
@@ -75,7 +66,7 @@ main.ctrl$sim.years <- c(initial = proj.yr, final = last.yr)
 ## get the stock input data (derived from the Gadget model fitting output or assessments)
 ## read in gadget output
 ## stock number by age - stock size only for 'hindcasts'
-data_n <- fit$stock.std %>% filter(year < proj.yr) %>% select(year, step, age, area, number) %>% rename(season = step, data = number) ## from gadget model output
+data_n <- fit$stock.std %>% filter(year < proj.yr) %>% select(year, step, age, area, number) %>% rename(season = step, data = number)
 
 ## stock weight by age
 data_wt <- fit$stock.std %>% filter(year < proj.yr) %>% select(year, step, age, area, mean_weight) %>% rename(season = step, data = mean_weight)
@@ -91,7 +82,7 @@ stk1_m.flq <- FLQuant(c(0.5/4, 0.2/4, 0.2/4, 0.2/4, 0.2/4, 0.2/4, 0.2/4, 0.2/4, 
                       dim=c(stk1.age.max, proj.yr-first.yr, na, ns), 
                       quant='age', dimnames=list(age = stk1.age.min:stk1.age.max, 
                                     year = first.yr:(proj.yr-1),
-                                    season = 1:ns)) # m derived from the gadget input file
+                                    season = 1:ns)) 
 stk1_spwn.flq <- FLQuant(1, 
                         dim = c(stk1.age.max, proj.yr-first.yr, 1, ns), 
                         quant = 'age', 
@@ -104,19 +95,15 @@ stk1_fec.flq <- FLQuant(c(0, 1, 1, 1, 1, 1, 1, 1, 1, 1),
                        dimnames=list(age = stk1.age.min:stk1.age.max, 
                                      year = first.yr:(proj.yr-1),
                                      season = 1:ns)) 
-stk1_mat.flq   <- stk1_fec.flq # maturity parameter
+stk1_mat.flq   <- stk1_fec.flq 
 stk1_mat.flq[2:stk1.age.max] <- c(1, 1, 1, 1, 1, 1, 1, 1, 1) 
 stk1_range.min       <- 1
 stk1_range.max       <- 10
 stk1_range.plusgroup <- 10
 stk1_range.minyear   <- 1978
-stk1_range.minfbar   <- 2 # Min age for calculating average fishing mortality
-stk1_range.maxfbar   <- 8 # max age for calculating average fishing mortality
-
-## Projection biols: weight, fecundity, mortality and spawning 
-stk1_biol.proj.avg.yrs  <- c((proj.yr-3):(proj.yr-1)) # the last 3 years of the historical data
-
-## Create the object 
+stk1_range.minfbar   <- 2 
+stk1_range.maxfbar   <- 8 
+stk1_biol.proj.avg.yrs  <- c((proj.yr-3):(proj.yr-1))
 stks.data <- list(stk1=ls(pattern="^stk1")) 
 biols    <- create.biols.data(yrs, ns, ni, stks.data)
 
@@ -126,11 +113,11 @@ biols.ctrl       <- create.biols.ctrl(stksnames = stks, growth.model = growth.mo
 
 ## SRs: 
 ## stock-recruitment model 
-data_rec <- data_rec %>% select(year, area, recruitment) %>% rename(data = recruitment) ## from gadget model output
+data_rec <- data_rec %>% select(year, area, recruitment) %>% rename(data = recruitment)
 data_rec$data <- data_rec$data/10000
-data_rec$age <- 1 # recruitment age
-stk1_rec.flq <- iter(as.FLQuant(as.data.frame(data_rec)), it) # recruitment
-stk1_ssb.flq <- ssb(biols[[1]][, 1:(proj.yr-first.yr),,]) # ssb
+data_rec$age <- 1 
+stk1_rec.flq <- iter(as.FLQuant(as.data.frame(data_rec)), it) 
+stk1_ssb.flq <- ssb(biols[[1]][, 1:(proj.yr-first.yr),,]) 
 
 ## fit the stock-recruit model 
 stk1_sr.model        <- 'rickerAR1'
@@ -158,7 +145,7 @@ stk1_proportion.flq <- FLQuant(0,
                               dim = c(1, last.yr-first.yr+1, 1, ns, 1, ni), 
                               dimnames = list(year = first.yr:last.yr, season = 1:ns, iter = it))
 stk1_proportion.flq[, , , 1][] <- 1 # all spawning occurs in season 1 
-stk1_prop.avg.yrs    <- c((proj.yr-3):(proj.yr-1)) ## the last 3 years -1 in the obs data
+stk1_prop.avg.yrs    <- c((proj.yr-3):(proj.yr-1))
 stk1_timelag.matrix  <- matrix(c(0, 1), nrow = 2, ncol = 1, dimnames = list(c('year', 'season'), 'all'))
 
 ## create SRs objects
@@ -169,31 +156,31 @@ SRs     <- create.SRs.data(yrs, ns, ni, stks.data)
 data_catch <- fit$stock.prey %>% filter(year < proj.yr) %>% select(year, step, age, area, biomass_consumed) %>% rename(season = step, data = biomass_consumed)
 
 ## landings.n, discards.n,landings.wt, discards.wt, landings, discards, landings.sel, discards.sel, price
-fl1.met1.stk1_landings.n.flq <- iter(as.FLQuant(as.data.frame(data_catch)), it) # landings
-fl1.met1.stk1_discards.n.flq <- fl1.met1.stk1_landings.n.flq # discards
-fl1.met1.stk1_discards.n.flq[] <- 0 # no discards for this model
+fl1.met1.stk1_landings.n.flq <- iter(as.FLQuant(as.data.frame(data_catch)), it) 
+fl1.met1.stk1_discards.n.flq <- fl1.met1.stk1_landings.n.flq 
+fl1.met1.stk1_discards.n.flq[] <- 0
 
-## economic parameter values are arbitararily set for this example
+## economic parameter values are arbitrarily set for this example
 fl1_effort.flq <- FLQuant(1, 
-                         dim = c(1, proj.yr-first.yr, 1, ns), ## effort
+                         dim = c(1, proj.yr-first.yr, 1, ns), 
                          dimnames = list(year = first.yr:(proj.yr-1), season = 1:ns, iter = it))
 fl1_capacity.flq <- FLQuant(1, 
-                           dim = c(1, proj.yr-first.yr, 1, ns), ## capacity
+                           dim = c(1, proj.yr-first.yr, 1, ns),
                            dimnames = list(year = first.yr:(proj.yr-1), season = 1:ns, iter = it))
 fl1_fcost.flq <- FLQuant(1, 
-                        dim = c(1, proj.yr-first.yr, 1, ns), ## fcost
+                        dim = c(1, proj.yr-first.yr, 1, ns),
                         dimnames = list(year = first.yr:(proj.yr-1), season = 1:ns, iter = it))
 fl1_crewshare.flq <- FLQuant(1, 
-                            dim = c(1, proj.yr-first.yr, 1, ns), ## crewshare
+                            dim = c(1, proj.yr-first.yr, 1, ns),
                             dimnames = list(year = first.yr:(proj.yr-1), season = 1:ns, iter = it))
 fl1.met1_effshare.flq <- FLQuant(1, 
-                                dim = c(1, proj.yr-first.yr, 1, ns), ##  effort share
+                                dim = c(1, proj.yr-first.yr, 1, ns),
                                 dimnames = list(year = first.yr:(proj.yr-1), season = 1:ns, iter = it))
 
 ## fleets: fl1
-fl1_proj.avg.yrs            <- c((proj.yr-3):(proj.yr-1))  # use the last 2 years in the obs data
-fl1.met1_proj.avg.yrs       <- c((proj.yr-3):(proj.yr-1))  # use the last 2 years in the obs data  
-fl1.met1.stk1_proj.avg.yrs  <- c((proj.yr-3):(proj.yr-1))  # use the last 3 years -1 in the obs data
+fl1_proj.avg.yrs            <- c((proj.yr-3):(proj.yr-1))  
+fl1.met1_proj.avg.yrs       <- c((proj.yr-3):(proj.yr-1))   
+fl1.met1.stk1_proj.avg.yrs  <- c((proj.yr-3):(proj.yr-1)) 
 
 ## create fleets object
 fls.data <- list(fl1 = ls(pattern = "^fl1")) 
@@ -243,13 +230,13 @@ convertStockName <- list(stk1 = "had")
 convertFleetName <- list(fl1 = "future")
 stockList <- c("had")
 
-## specify stocks and fleets for gadget input and simualtions 
+## specify stocks and fleets for gadget input and simulations 
 had.fleets <- c("comm", "survey", "future")
 had.stocks <- c("had")
 had.stocks.mature <- c("had")
 had.surveys <- c("survey")
 had.forecasts <- c("future")
-had.forecasts.tac.proportion <- c(0.232, 0.351, 0.298, 0.119) ## this needs to be the same as FLBEIA ################
+had.forecasts.tac.proportion <- c(0.232, 0.351, 0.298, 0.119) ## this needs to be the same as FLBEIA
 #had.forecasts.tac.proportion <- c(1, 1, 1, 1)
 
 ## specify fleets and metiers
@@ -294,28 +281,25 @@ source(paste0(dir, "/gadget-fls.R"), local = T)
 ## management procedure (MP)
 
 ## indices:
-## generate indices from biols object
-flq <- biols[["stk1"]]@n[ , , , 1] # get the stock number
+flq <- biols[["stk1"]]@n[ , , , 1] 
 #dimnames(flq)$season <- "all"
-unc <- id <- q <- flq # set dataframes
-unc[] <- rlnorm(prod(dim(flq)), 0, 0.3) # generate variability in an index using the log-normal distribution
-q[] <- rep(runif(dim(flq)[1], 1e-05/2, 1e-05*5), dim(flq)[2]) # generate catchability in an index using the normal distribution
-id <- biols[["stk1"]]@n[ , , , 1]*unc*q # compute the index
+unc <- id <- q <- flq 
+unc[] <- rlnorm(prod(dim(flq)), 0, 0.3) 
+q[] <- rep(runif(dim(flq)[1], 1e-05/2, 1e-05*5), dim(flq)[2]) 
+id <- biols[["stk1"]]@n[ , , , 1]*unc*q 
 #dimnames(id)$season <- "all"
-stk1_indices <- c('ind1') # name the index
-stk1_ind1_index.flq <- id # index
-stk1_ind1_index.q.flq <- q # catchability
-stk1_ind1_index.var.flq <- unc # variablity
-stk1_ind1_range.startf <- 0.12 # the initial time step 
-stk1_ind1_range.endf <- 1 - 0.12 # the last time step
-stk1_ind1_range.min <- stk1.age.min+1 # minimum age in an index
-stk1_ind1_range.max <- stk1.age.max # maximum age in an index
+stk1_indices <- c('ind1') 
+stk1_ind1_index.flq <- id 
+stk1_ind1_index.q.flq <- q 
+stk1_ind1_index.var.flq <- unc
+stk1_ind1_range.startf <- 0.12 
+stk1_ind1_range.endf <- 1 - 0.12 
+stk1_ind1_range.min <- stk1.age.min+1 
+stk1_ind1_range.max <- stk1.age.max 
 ##  YFT_cpue_range.plusgroup <- 0
 stk1_ind1_range.minyear <- first.yr
 stk1_ind1_range.maxyear <- proj.yr-1
 stk1_ind1_type <- "FLIndex"
-
-## create indices objects
 stks.data <- list(stk1 = ls(pattern = "^stk1")) 
 oneIndAge <- create.indices.data(yrs, 1, ni, stks.data)
 
@@ -337,7 +321,6 @@ obs.ctrl.age[['stk1']][['indObs']][['ind1']][['indObs.model']]  <- 'ageInd'
 nage <- stk1.age.max
 ny <- length(first.yr:last.yr)
 ages.error <- array(0, dim = c(nage, nage, ny, ni))
-
 ## generate errors using the Dirichlet distribution (n, alpha)
 for(a in 1:nage){
   for(i in 1:ni){
@@ -376,17 +359,15 @@ for(sl in slts){
 }
 
 ## advice: 
-## List containing information on management advice; total allowable catch 'TAC' and quota share.
-## advice:TAC/TAE/quota.share
 ## TAC is set by historical catch for this example
 data_tac <- fit$stock.prey %>% select(year, area, biomass_consumed) %>% rename(data = biomass_consumed)
 data_tac$data[(proj.yr-first.yr+1):(last.yr-first.yr+1)] = NA
 stk1_advice.TAC.flq <- iter(as.FLQuant(as.data.frame(data_tac)), it)
 stk1_advice.TAC.flq <- window(stk1_advice.TAC.flq, first.yr, last.yr)
 stk1_advice.quota.share.flq <- FLQuant(1, 
-                                       dim = c(1, last.yr-first.yr+1, 1), ## quota share
+                                       dim = c(1, last.yr-first.yr+1, 1), 
                                        dimnames = list(year = first.yr:last.yr))
-stk1_advice.avg.yrs <- c((proj.yr-3):(proj.yr-1)) # the last 3 years -1 in the data
+stk1_advice.avg.yrs <- c((proj.yr-3):(proj.yr-1))
 
 ## create advice object
 stks.data <- list(stk1 = ls(pattern = "^stk1")) 
@@ -411,10 +392,13 @@ names(advice.ctrl$stk1$AdvCatch) <- as.character((first.yr:last.yr))
 
 ## assess.ctrl: 
 ## statistical catch-at-age model - a4a
+assess.models <- 'NoAssessment'
+assess.ctrl <- create.assess.ctrl(stksnames = stks, assess.models = assess.models)
+assess.ctrl[['stk1']]$work_w_Iter <- TRUE
 assess.ctrl.a4a <- assess.ctrl
 assess.ctrl.a4a$stk1$assess.model <- "sca2flbeia"
 assess.ctrl.a4a[["stk1"]]$harvest.units <- "f"
-assess.ctrl.a4a[["stk1"]]$control$test <- TRUE    # control values
+assess.ctrl.a4a[["stk1"]]$control$test <- TRUE  
 
 ## check if the conditioning is ok
 checkFLBEIAData( biols = biols, 
@@ -434,9 +418,7 @@ checkFLBEIAData( biols = biols,
 
 ## Save FLBEIA input objects
  save(biols, SRs, BDs, oneGDGT, had.params, fleets, covars, oneIndAge, advice, main.ctrl, biols.ctrl, fleets.ctrl, 
-      covars.ctrl, advice.ctrl, obs.ctrl.age, assess.ctrl.a4a, 
-      file="input_flbeia-gadget_age_4s_a4a.RData")
-
+      covars.ctrl, advice.ctrl, obs.ctrl.age, assess.ctrl.a4a, file="input_flbeia-gadget_age_4s_a4a.RData")
  
 ## Run FLBEIA
 ## age-structured assessment models
@@ -455,13 +437,14 @@ s0 <- FLBEIA(biols = biols,
             obs.ctrl = obs.ctrl.age,
             assess.ctrl = assess.ctrl.a4a,
             advice.ctrl = advice.ctrl)
+
 ## reset the directory
 setwd(dir)
 
 ## Results FLBEIA
-names(s0)
-plot(s0$biols[[1]]) # 'real' stock
-plot(s0$stocks[[1]]) # obs stock
+#names(s0)
+plot(s0$biols[[1]]) 
+plot(s0$stocks[[1]]) 
 
 ## plot for age-structrured models
 stk1.mp1 <- s0$stocks[['stk1']]
